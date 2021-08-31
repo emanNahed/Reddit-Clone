@@ -18,4 +18,4 @@ This is an educational purpose project to work with PERN stack, and apply a basi
 
 1. Schema: 
 
-![](https://ibb.co/7Cd2CfD)
+![](https://i.ibb.co/Sy4Ryjg/mn.png)
