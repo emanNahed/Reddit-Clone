@@ -4,7 +4,7 @@
   "description": "this is an educational purpose project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server/index.js",
     "test": "test"
   },
   "keywords": [
@@ -16,6 +16,7 @@
   "dependencies": {
     "config": "^3.3.6",
     "env2": "^2.2.2",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
