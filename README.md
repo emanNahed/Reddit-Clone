@@ -15,7 +15,9 @@ This is an educational purpose project to work with PERN stack, and apply a basi
 ## Development process
 
 ### Database:
-
-1. Schema: 
+ Schema: 
 
 ![](https://i.ibb.co/Sy4Ryjg/mn.png)
+
+### Deployement:
+* Demo link: https://wamda-reddit.herokuapp.com/
