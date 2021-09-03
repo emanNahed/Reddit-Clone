@@ -17,6 +17,7 @@
     "config": "^3.3.6",
     "env2": "^2.2.2",
     "fs": "0.0.1-security",
+    "joi-password": "^1.6.0",
     "path": "^0.12.7"
   },
   "devDependencies": {

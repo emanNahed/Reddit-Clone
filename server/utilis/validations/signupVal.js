@@ -8,6 +8,7 @@ const userSignUp= joi.object({
     .minOfNumeric(1).minOfUppercase(1)
     .minOfLowercase(1).min(8)
     .required(),
+    confirmPassword: joi.any().valid(joi.ref('password')).required(),
 });
 
 
