@@ -4,6 +4,7 @@ const ApiError = require('../error/ApiError');
 const bcrypt= require('bcrypt');
 
 const register = async (req, res, next) => {
+    console.log(req.body)
     const {error} = await regValidation.validate(req.body);
     
     if(error){

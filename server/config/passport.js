@@ -36,6 +36,8 @@ async (email, password, done)=> {
 
 
         const compare = await bcrypt.compare(password,user.rows[0].password);
+
+
         if(!compare) 
             return done(null, false, {msg: "email or password is not correct"})
         return done(null, user.rows[0]);
