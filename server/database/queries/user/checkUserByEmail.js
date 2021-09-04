@@ -1,8 +1,8 @@
-const connection = require('../config/connection');
+const connection = require('../../config/connection');
 
 const checkEmail= (email)=> {
     const sqlQuery = {
-        text: 'SELECT * FROM user WHERE email = $1;',
+        text: 'SELECT * FROM users WHERE email = $1;',
         values: [email],
     };
 

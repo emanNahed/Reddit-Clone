@@ -4,7 +4,7 @@
   "description": "this is an educational purpose project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon server/index.js",
     "test": "test"
   },
   "keywords": [
@@ -14,14 +14,16 @@
   "author": "Skoun",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "config": "^3.3.6",
     "env2": "^2.2.2",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "joi": "^17.4.2",
     "joi-password": "^1.6.0",
-    "path": "^0.12.7"
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "pg": "^8.7.1"
   },
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-react": "^7.25.1"
-  }
+  "devDependencies": {}
 }

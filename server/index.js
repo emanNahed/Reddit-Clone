@@ -1,3 +1,3 @@
 const app = require('./app');
 
-app.listen(app.get(port));
+app.listen(app.get('port'));
