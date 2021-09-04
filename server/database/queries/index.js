@@ -1,3 +1,4 @@
-const checkEmail = require('./user/checkUserByEmail');
-const addUser = require('./user/addUser')
-module.exports= {checkEmail, addUser};
+const {checkEmail, addUser,findUserById} = require('./user/');
+
+
+module.exports= {checkEmail, addUser,findUserById};
